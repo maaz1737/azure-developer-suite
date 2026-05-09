@@ -39,7 +39,7 @@ export function About() {
             </span>
             <h2 className="mt-4 text-4xl font-bold tracking-tight md:text-5xl">
               Full-stack developer crafting{" "}
-              <span text-gradient="" className="text-gradient">
+              <span className="text-gradient">
                 modern web experiences
               </span>
             </h2>
