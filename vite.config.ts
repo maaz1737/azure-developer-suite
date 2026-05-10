@@ -13,16 +13,8 @@ export default defineConfig({
     base: '/azure-developer-suite/',
   },
   tanstackStart: {
-    prerender: {
-      enabled: true,
-      crawlLinks: true,
-    },
-    server: {
-      // Force the output filename to be exactly what the error is looking for
-      entry: "index",
-      output: {
-        filename: "server.js"
-      }
+    deployment: {
+      target: 'static', // This tells TanStack to build for static hosting only
     },
   },
 });
