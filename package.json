@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "build": "vinxi build",
+    "build": "npx vinxi build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .output/public"
   },
