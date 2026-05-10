@@ -10,7 +10,6 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // @cloudflare/vite-plugin builds from this — wrangler.jsonc main alone is insufficient.
 export default defineConfig({
   vite: {
-    // This must match your GitHub repository name exactly
     base: '/azure-developer-suite/',
   },
   tanstackStart: {
@@ -19,8 +18,13 @@ export default defineConfig({
       crawlLinks: true,
     },
     server: {
-      entry: "index"
+      // Force the output filename to be exactly what the error is looking for
+      entry: "index",
+      output: {
+        filename: "server.js"
+      }
     },
   },
 });
+
 
