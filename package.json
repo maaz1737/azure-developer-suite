@@ -10,7 +10,6 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "build": "vinxi build",
-    "postbuild": "copy .output\\public\\_shell.html .output\\public\\index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .output/public"
   },
