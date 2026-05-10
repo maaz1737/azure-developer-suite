@@ -10,11 +10,17 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // @cloudflare/vite-plugin builds from this — wrangler.jsonc main alone is insufficient.
 export default defineConfig({
   vite: {
+    // This must match your GitHub repository name exactly
     base: '/azure-developer-suite/',
   },
   tanstackStart: {
+    prerender: {
+      enabled: true,
+      crawlLinks: true,
+    },
     server: {
-      entry: "server"
+      entry: "index"
     },
   },
 });
+
