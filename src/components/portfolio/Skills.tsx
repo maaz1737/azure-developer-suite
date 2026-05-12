@@ -1,14 +1,16 @@
 const skills = [
-  { name: "HTML", level: 98 },
-  { name: "CSS", level: 95 },
-  { name: "JavaScript", level: 94 },
-  { name: "React", level: 92 },
-  { name: "PHP", level: 85 },
-  { name: "MySQL", level: 88 },
-  { name: "Bootstrap", level: 90 },
-  { name: "Tailwind CSS", level: 96 },
-  { name: "Git", level: 90 },
-  { name: "GitHub", level: 92 },
+  { name: "PHP", level: 95 },
+  { name: "Laravel", level: 95 },
+  { name: "MySQL", level: 92 },
+  { name: "REST APIs", level: 93 },
+  { name: "Livewire", level: 85 },
+  { name: "JavaScript", level: 88 },
+  { name: "AJAX / jQuery", level: 90 },
+  { name: "React.js", level: 80 },
+  { name: "Tailwind CSS", level: 90 },
+  { name: "Bootstrap", level: 92 },
+  { name: "Eloquent ORM", level: 92 },
+  { name: "Git & GitHub", level: 90 },
 ];
 
 export function Skills() {
@@ -23,7 +25,7 @@ export function Skills() {
             My <span className="text-gradient">tech stack</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Tools and technologies I use every day to build modern products.
+            Tools and technologies I use every day to build modern Laravel applications.
           </p>
         </div>
 
