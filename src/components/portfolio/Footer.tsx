@@ -50,9 +50,9 @@ export function Footer() {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-6 py-6 text-sm text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} Alex.dev — All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Muhammad Maaz Khalid — All rights reserved.</p>
           <p>
-            Built with <span className="text-primary">passion</span> by Alex.
+            Built with <span className="text-primary">passion</span> by Maaz.
           </p>
         </div>
       </div>
