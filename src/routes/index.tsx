@@ -15,17 +15,17 @@ import { useReveal } from "@/hooks/use-reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex — Full Stack Developer Portfolio" },
+      { title: "Muhammad Maaz Khalid — Full Stack Laravel Developer" },
       {
         name: "description",
         content:
-          "Premium portfolio of Alex, a full-stack developer building modern, fast and beautiful web applications with React, Node.js and more.",
+          "Portfolio of Muhammad Maaz Khalid, a Full Stack Laravel Developer with 2.5+ years of experience building HR systems, e-commerce platforms and REST APIs.",
       },
-      { property: "og:title", content: "Alex — Full Stack Developer Portfolio" },
+      { property: "og:title", content: "Muhammad Maaz Khalid — Full Stack Laravel Developer" },
       {
         property: "og:description",
         content:
-          "Modern full-stack developer portfolio — React, Node.js, UI/UX and scalable backends.",
+          "Full Stack Laravel Developer — PHP, Laravel, MySQL, REST APIs, AJAX and responsive frontends.",
       },
       {
         link: [
