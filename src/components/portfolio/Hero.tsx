@@ -55,15 +55,15 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
-            Hi, I'm Alex —<br />
+            Hi, I'm Maaz —<br />
             <span className="text-gradient">{typed}</span>
             <span className="ml-1 inline-block h-12 w-1 -translate-y-2 bg-primary animate-blink md:h-14 lg:h-16" />
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            I craft fast, scalable, and beautifully designed web applications.
-            Blending creative front-end engineering with rock-solid back-ends to
-            ship products people love.
+            Full Stack Laravel Developer with 2.5+ years of experience building
+            scalable web applications, REST APIs, HR systems, and e-commerce
+            platforms — focused on clean code and reliable performance.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -85,18 +85,18 @@ export function Hero() {
 
           <div className="mt-10 flex items-center gap-8 text-sm">
             <div>
-              <p className="text-2xl font-bold text-foreground">5+</p>
+              <p className="text-2xl font-bold text-foreground">2.5+</p>
               <p className="text-muted-foreground">Years</p>
             </div>
             <div className="h-10 w-px bg-border" />
             <div>
-              <p className="text-2xl font-bold text-foreground">50+</p>
+              <p className="text-2xl font-bold text-foreground">15+</p>
               <p className="text-muted-foreground">Projects</p>
             </div>
             <div className="h-10 w-px bg-border" />
             <div>
-              <p className="text-2xl font-bold text-foreground">30+</p>
-              <p className="text-muted-foreground">Clients</p>
+              <p className="text-2xl font-bold text-foreground">2</p>
+              <p className="text-muted-foreground">Companies</p>
             </div>
           </div>
         </div>
