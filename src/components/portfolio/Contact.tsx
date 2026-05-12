@@ -39,9 +39,9 @@ export function Contact() {
               </p>
               <ul className="mt-6 space-y-4">
                 {[
-                  { icon: Mail, label: "alex@portfolio.dev" },
-                  { icon: Phone, label: "+1 (555) 123-4567" },
-                  { icon: MapPin, label: "Remote · Worldwide" },
+                  { icon: Mail, label: "khalidmaaz766@gmail.com" },
+                  { icon: Phone, label: "+92 302 7706101" },
+                  { icon: MapPin, label: "Lahore, Pakistan" },
                 ].map((c) => (
                   <li key={c.label} className="flex items-center gap-3 text-sm">
                     <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-primary text-white">

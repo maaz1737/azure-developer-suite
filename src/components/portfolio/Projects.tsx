@@ -7,36 +7,36 @@ import p4 from "@/assets/project-4.jpg";
 
 const projects = [
   {
-    title: "SaaS Analytics Dashboard",
-    desc: "Real-time analytics platform with customizable widgets and team collaboration.",
+    title: "HR Management System",
+    desc: "Attendance, leave management and payroll modules with API integrations to automate HR operations.",
     img: p1,
-    tags: ["React", "Tailwind", "Node.js"],
+    tags: ["Laravel", "MySQL", "REST APIs", "Bootstrap"],
     category: "Web App",
   },
   {
-    title: "E-commerce Storefront",
-    desc: "Headless commerce experience with lightning-fast checkout and CMS.",
+    title: "E-Commerce Platform",
+    desc: "Product management, cart and order processing with optimized backend workflows and AJAX UX.",
     img: p2,
-    tags: ["React", "Stripe", "MySQL"],
+    tags: ["Laravel", "AJAX", "MySQL", "Tailwind"],
     category: "E-commerce",
   },
   {
-    title: "Fintech Mobile UI",
-    desc: "Cross-platform banking app with secure auth and transaction insights.",
+    title: "Lead Management System",
+    desc: "Lead tracking and assignment modules with dynamic CRUD operations, DataTables and reporting.",
     img: p3,
-    tags: ["React Native", "PHP", "API"],
-    category: "Mobile",
+    tags: ["Laravel", "AJAX", "jQuery", "DataTables"],
+    category: "Web App",
   },
   {
-    title: "Productivity Suite",
-    desc: "Kanban-based team productivity tool with realtime sync.",
+    title: "Multi Calculator Web App",
+    desc: "Financial and business calculators with reusable CRUD modules and clean validation workflows.",
     img: p4,
-    tags: ["React", "Tailwind", "Realtime"],
+    tags: ["Laravel", "PHP", "Bootstrap"],
     category: "Web App",
   },
 ];
 
-const categories = ["All", "Web App", "E-commerce", "Mobile"];
+const categories = ["All", "Web App", "E-commerce"];
 
 export function Projects() {
   const [filter, setFilter] = useState("All");

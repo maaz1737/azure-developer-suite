@@ -38,28 +38,29 @@ export function About() {
               About me
             </span>
             <h2 className="mt-4 text-4xl font-bold tracking-tight md:text-5xl">
-              Full-stack developer crafting{" "}
+              Laravel developer building{" "}
               <span className="text-gradient">
-                modern web experiences
+                scalable backend systems
               </span>
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-              Hi, I'm a passionate full-stack developer who loves turning ideas
-              into fast, beautiful, and scalable products. I work across the
-              entire stack — from designing intuitive interfaces to building
-              robust APIs and reliable databases.
+              I'm Muhammad Maaz Khalid, a Full Stack Laravel Developer based in
+              Lahore, Pakistan with 2.5+ years of hands-on experience shipping
+              HR systems, e-commerce platforms, and lead management tools for
+              startups and software houses.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              With experience in React, Node.js, TypeScript, and modern cloud
-              tools, I focus on writing clean code, delivering polished user
-              experiences, and shipping products that actually move the needle.
+              I specialize in Laravel, REST APIs, MySQL optimization, and
+              AJAX-driven workflows — paired with responsive frontends in
+              Tailwind, Bootstrap, jQuery and React. Clean code, performance,
+              and real business impact are what I care about.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
               {[
-                { k: "Frontend", v: "React · Next.js" },
-                { k: "Backend", v: "Node · Postgres" },
-                { k: "Focus", v: "Performance & UX" },
+                { k: "Backend", v: "Laravel · PHP" },
+                { k: "Database", v: "MySQL · Eloquent" },
+                { k: "Frontend", v: "AJAX · Tailwind" },
               ].map((item) => (
                 <div
                   key={item.k}

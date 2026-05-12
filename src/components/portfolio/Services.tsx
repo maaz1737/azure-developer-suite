@@ -3,33 +3,33 @@ import { Code2, Smartphone, Server, Database, Palette, Globe } from "lucide-reac
 const services = [
   {
     icon: Code2,
-    title: "Web Development",
-    desc: "Modern, performant websites built with React and best-in-class tooling.",
-  },
-  {
-    icon: Smartphone,
-    title: "Responsive Design",
-    desc: "Pixel-perfect experiences that adapt to every screen and device.",
+    title: "Laravel Web Apps",
+    desc: "End-to-end Laravel applications with clean MVC architecture and maintainable code.",
   },
   {
     icon: Server,
-    title: "Backend Development",
-    desc: "Robust REST and GraphQL APIs powering your product end-to-end.",
+    title: "REST API Development",
+    desc: "Robust REST APIs powering mobile apps, SPAs, and third-party integrations.",
   },
   {
     icon: Database,
-    title: "Database Integration",
-    desc: "Designing schemas and queries that scale with your business.",
+    title: "Database Design & Optimization",
+    desc: "MySQL schemas and Eloquent queries tuned for speed and scale.",
+  },
+  {
+    icon: Smartphone,
+    title: "Responsive Frontends",
+    desc: "Pixel-perfect UIs in Tailwind, Bootstrap, jQuery and AJAX-driven interactions.",
   },
   {
     icon: Palette,
-    title: "UI / UX Design",
-    desc: "Clean, conversion-focused interfaces with attention to every detail.",
+    title: "HR & E-commerce Systems",
+    desc: "Custom HRMS, attendance, payroll, product, cart and order modules.",
   },
   {
     icon: Globe,
-    title: "Performance & SEO",
-    desc: "Fast, accessible, search-friendly websites that rank and convert.",
+    title: "API Integrations",
+    desc: "Connecting Laravel apps to payment, attendance, and third-party services.",
   },
 ];
 
