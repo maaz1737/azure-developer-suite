@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight, Sparkles, Github } from "lucide-react";
 import heroImg from "@/assets/hero-illustration.png";
 
-const ROLES = ["Full Stack Developer", "React Engineer", "UI Craftsman", "Problem Solver"];
+const ROLES = ["Laravel Developer", "PHP Engineer", "REST API Builder", "Full Stack Developer"];
 
 function useTyping(words: string[], speed = 90, pause = 1400) {
   const [text, setText] = useState("");
