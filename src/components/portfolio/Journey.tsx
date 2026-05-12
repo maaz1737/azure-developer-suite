@@ -1,29 +1,29 @@
-import { GraduationCap, Briefcase, Award, Rocket } from "lucide-react";
+import { GraduationCap, Briefcase, Rocket, Code2 } from "lucide-react";
 
 const items = [
   {
     icon: GraduationCap,
-    year: "2019",
-    title: "Started Coding Journey",
-    desc: "Discovered web development and fell in love with building things on the web.",
+    year: "2023",
+    title: "BS Information Technology",
+    desc: "Graduated from University of Sargodha with a degree in Information Technology.",
   },
   {
     icon: Rocket,
-    year: "2021",
-    title: "First Freelance Projects",
-    desc: "Started shipping real client projects — from landing pages to small SaaS tools.",
+    year: "Jan 2024",
+    title: "Laravel Developer — DEVMINE",
+    desc: "Built a multi-calculator web app, reusable CRUD modules, validation workflows and responsive interfaces.",
   },
   {
     icon: Briefcase,
-    year: "2023",
-    title: "Full-Stack Developer",
-    desc: "Joined a fast-growing startup, leading frontend and contributing to backend systems.",
+    year: "Oct 2024",
+    title: "Laravel Developer — LARAARTISAN",
+    desc: "Developing HR management and e-commerce systems, REST APIs, payroll integrations and role-based auth.",
   },
   {
-    icon: Award,
-    year: "2025",
-    title: "Certified & Independent",
-    desc: "Earned multiple certifications and now help companies build polished products.",
+    icon: Code2,
+    year: "Today",
+    title: "Open for Opportunities",
+    desc: "Available for full-time, freelance and remote Laravel and full-stack roles.",
   },
 ];
 
