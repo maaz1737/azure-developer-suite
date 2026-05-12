@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "maazkhalidportfolio" },
+      { name: "description", content: "A modern, premium personal portfolio website for full-stack developers, designed to impress recruiters and clients." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "maazkhalidportfolio" },
+      { property: "og:description", content: "A modern, premium personal portfolio website for full-stack developers, designed to impress recruiters and clients." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "maazkhalidportfolio" },
+      { name: "twitter:description", content: "A modern, premium personal portfolio website for full-stack developers, designed to impress recruiters and clients." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eb72d9b4-711c-4ec8-a244-4891983d1472/id-preview-f12ffd09--45f7c073-17c3-4c93-b23a-0f99a97f23fd.lovable.app-1778601128077.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eb72d9b4-711c-4ec8-a244-4891983d1472/id-preview-f12ffd09--45f7c073-17c3-4c93-b23a-0f99a97f23fd.lovable.app-1778601128077.png" },
     ],
     links: [
       {
