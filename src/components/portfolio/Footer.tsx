@@ -11,11 +11,11 @@ export function Footer() {
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-primary text-white">
               <Code2 className="h-5 w-5" />
             </span>
-            Alex<span className="text-gradient">.dev</span>
+            Maaz<span className="text-gradient">.dev</span>
           </a>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-            Full-stack developer crafting modern, scalable, and beautifully
-            designed digital products.
+            Full Stack Laravel Developer building scalable web apps, REST APIs
+            and HR / e-commerce systems.
           </p>
         </div>
 
