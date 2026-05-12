@@ -6,19 +6,19 @@ const items = [
     name: "Sarah Chen",
     role: "Product Manager, Linear-ish",
     quote:
-      "Alex delivered a beautiful, performant dashboard ahead of schedule. The attention to detail is unmatched.",
+      "Maaz delivered a beautiful, performant dashboard ahead of schedule. The attention to detail is unmatched.",
   },
   {
     name: "Marcus Lee",
     role: "Founder, NovaPay",
     quote:
-      "Working with Alex felt like hiring a senior team. Clean code, great UX and proactive communication.",
+      "Working with Maaz felt like hiring a senior team. Clean code, great UX and proactive communication.",
   },
   {
     name: "Priya Sharma",
     role: "CTO, BrightStack",
     quote:
-      "Our conversion rate jumped 38% after Alex rebuilt the marketing site. Highly recommended.",
+      "Our conversion rate jumped 38% after Maaz rebuilt the marketing site. Highly recommended.",
   },
 ];
 
