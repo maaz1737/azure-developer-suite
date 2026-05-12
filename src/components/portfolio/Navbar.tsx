@@ -41,7 +41,7 @@ export function Navbar() {
             <Code2 className="h-5 w-5" />
           </span>
           <span className="text-foreground">
-            Alex<span className="text-gradient">.dev</span>
+            Maaz<span className="text-gradient">.dev</span>
           </span>
         </a>
 
